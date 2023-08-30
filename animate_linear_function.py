@@ -1,6 +1,6 @@
 from matplotlib import pyplot
-if __name__ == '__main__':
-    ...
+
+
 def animate_using_pause():
     x = []
     y = []
@@ -12,3 +12,7 @@ def animate_using_pause():
         pyplot.plot(x, y, color="green")
         pyplot.pause(0.01)
     pyplot.show()
+
+
+if __name__ == '__main__':
+    animate_using_pause()
